@@ -1,0 +1,41 @@
+body{
+	font-family: tahoma;
+	font-size: 40px;
+	margin: 0;
+}
+
+.coll{
+	display: flex;
+	width: 100%;
+
+}
+
+
+.co1{
+	height: 150px;
+	width: 100px;
+	border-left-style: dotted;
+	border-width: 10px;
+	border-color: #D0D0FF;
+	background-color: #eeeff2;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-indent: 10px;
+    
+}
+
+p{
+	margin: 0;
+	text-align: left;
+}
+.co1:hover{
+	background-color: yellow;
+	color: goldenrod;
+
+}
+
+.col6{
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+}

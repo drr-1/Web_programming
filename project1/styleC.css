@@ -1,0 +1,38 @@
+body{
+	font-family: tahoma;
+	
+	 
+}
+
+.coll{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-color: black;
+}
+
+.co1,.col6{
+  position: relative;
+  text-transform: uppercase;
+  font-size: 100px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, black, white, black);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(25, 100, 5, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}

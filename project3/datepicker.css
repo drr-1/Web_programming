@@ -1,0 +1,13 @@
+table{
+    background-image: url("back2.png");
+    color: white;
+    text-align: center;
+}
+#table{
+    background-image: url("back2.png") !important;
+    color: white !important;
+    text-align: center !important;
+}
+table #cell{
+    background-color: white;
+}
